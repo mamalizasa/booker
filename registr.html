@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Лучшие книги мира, сборник</title>
+    <!-- Подключение CSS файла bootstrap 5 -->
+    <link href="bootstrapno/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/forms.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar shapka text-white navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand logo text-white" href="index.html">Booker</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse text-white navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0 mx-auto">
+                  <li class="nav-item pe-5">
+                    <a class="nav-link active" aria-current="page" href="index.html">Главная</a>
+                  </li>
+                  <li class="nav-item pe-5">
+                    <a class="nav-link active" aria-current="page" href="aboutus.html">О нас</a>
+                  </li>
+                  <li class="nav-item pe-5">
+                    <a class="nav-link active" aria-current="page" href="lk.html">Избранное</a>
+                  </li>
+
+                  <li class="nav-item dropdown pe-5">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Жанры
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="index.html#biograthy">Мемуары</a></li>
+                      <li><a class="dropdown-item" href="index.html#classic">Классика</a></li>
+                      <li><a class="dropdown-item" href="index.html#fantastic">Фантастика</a></li>
+                    </ul>
+                  </li>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+
+    <main>
+        <div class="container-fluid">
+            <h2 class="text-center p-3">Регистрация</h2>
+
+            <div id="message"></div>
+            <div id="message_error"></div>
+            <div id="message_success"></div>
+
+            <form method="post" action="#" class="row g-1 w-75 mx-auto" id="form">
+                <div class="mb-3">
+                    <label for="login">Придумайте логин<span class="text-danger">*</span></label>
+                    <input id="login" type="text" placeholder="AlexeyNav" class="p-1">
+                    <div class="piksa">Предупреждение</div>
+                </div>
+
+                <div class="mb-3">
+                    <label for="email">Введите почту<span class="text-danger">*</span></label>
+                    <input id="email" type="email" placeholder="nav@al.niy" class="p-1">
+                    <div class="piksa">Предупреждение</div>
+                </div>
+
+                <div class="mb-3">
+                    <label for="pass">Придумайте пароль<span class="text-danger">*</span></label>
+                    <input id="pass" type="password" class="p-1">
+                    <div class="piksa">Предупреждение</div>
+                </div>
+
+                <div class="mb-3">
+                    <label for="passre">Повторите пароль<span class="text-danger">*</span></label>
+                    <input id="passre" type="password" class="p-1">
+                    <div class="piksa">Предупреждение</div>
+                </div>
+                
+                <button class="btn knopa col-3" type="submit">Отправить</button>
+                <p>Есть аккаунт? <a href="login.html">Войти</a></p>
+            </form>
+        </div>
+        
+    </main>
+
+    
+
+    <!-- Подключение JS файла Bootstrap -->
+    <script src="script/jquery.js"></script>
+    <script src="script/form.js"></script>
+    <script src="bootstrapno/js/bootstrap.bundle.min.js" ></script></body>
+</html>

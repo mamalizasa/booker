@@ -1,0 +1,159 @@
+@import url('../css/fonts.css');
+* {
+    padding: 0;
+    margin: 0;
+}
+p {
+    font-family: "Open Sans", sans-serif !important;
+    font-size: 24px;
+}
+
+
+h1 {
+    font-family: "Helvetica";
+}
+
+.logo {
+    font-family: "Helvetica";
+    font-size: 30px;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.logo:hover {
+    color: #514604 !important;
+    transition: .15s;
+}
+
+.navbar-toggler {
+    border: 0 !important;
+}
+.card {
+    --bs-card-border-width: none !important;
+    box-shadow: 2px 6px 4px 3px #5c3b036d;
+}
+
+
+.shapka {
+    font-family: "Helvetica" !important;
+    background-color: #f4dcad;
+    font-size: 22px;
+}
+
+.dropdown-menu {
+    background-color: #f4dcad;
+    border: 0px !important;
+    border-radius: 0 !important;
+    font-size: 22px;
+    transition: .15s;
+
+}
+.dark {
+    background-color: #000710c2 !important;
+    z-index: 10000 !important;
+}
+.glav {
+    width: auto !important;
+    height: auto !important;
+    background-image: url('../photos/booka.jpg') !important;
+    background-position: center center;  
+    background-attachment: fixed;   
+    background: no-repeat;
+    background-size: cover;  
+    z-index: -100 !important;
+}
+
+.welcomet {
+    font-family: "Open Sans", sans-serif !important;
+    font-size: 32px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+h2 {
+    font-family: "Helvetica" !important;
+}
+
+
+
+
+/* Footer */
+
+.footer {
+    background-color: #0a516afe;
+    color: #dbf0f3;
+}
+.footer ul {
+    list-style-type: none;
+    padding: 2%;
+}
+.footer ul li {
+    padding: 0.5%;
+}
+.footer ul li:hover {
+    color:#ffffff;
+}
+.footer .logo {
+    display: block;
+    padding-top: 11%;
+}
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid-item {
+    flex-basis: calc(33.33%);
+}
+
+/*  Footer off */
+
+
+
+
+
+
+@media screen and (max-width: 831px) {
+    .grid-item {
+        flex-basis: calc(100%);
+    }
+    .footer .logo {
+        padding-top: 0;
+    }
+}
+
+@media screen and (max-width: 1201px) {
+    .h {
+        height: 60vh !important;
+    }
+}
+
+@media screen and (max-width: 993px) {
+    .h {
+        height: 40vh !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .h {
+        height: 95vh !important;
+    }
+}
+
+@media screen and (max-width: 391px) {
+    .welcomet {
+        font-size: 24px !important;
+    }
+    input.btn {
+        width: 85% !important;
+    }
+    input {
+        width: 85% !important;
+    }
+    textarea {
+        width: 85% !important;
+    }
+    .h {
+        height: 60vh !important;
+    }
+}

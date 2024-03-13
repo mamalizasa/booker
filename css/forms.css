@@ -1,0 +1,104 @@
+@import url('../css/fonts.css');
+* {
+    padding: 0;
+    margin: 0;
+}
+p {
+    font-family: "Open Sans", sans-serif !important;
+}
+
+.logo {
+    font-family: "Helvetica";
+    font-size: 30px;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.logo:hover {
+    color: #514604 !important;
+    transition: .15s;
+}
+
+.navbar-toggler {
+    border: 0 !important;
+}
+
+
+.shapka {
+    font-family: "Helvetica" !important;
+    background-color: #f4dcad;
+    font-size: 22px;
+}
+
+.dropdown-menu {
+    background-color: #f4dcad;
+    border: 0px !important;
+    border-radius: 0 !important;
+    font-size: 22px;
+    transition: .15s;
+
+}
+
+.piksa {
+    font-family: "Open Sans", sans-serif !important;
+    font-size: 14px !important;
+    color:#5e5c5c !important;
+}
+
+h2 {
+    font-family: "Helvetica" !important;
+}
+input {
+    border: 2px solid #f4dcad;
+    border-radius: 5px;
+    
+}
+.knopa {
+    background-color: #514604;
+    color:#f4dcad !important;
+}
+
+@media screen and (max-width: 831px) {
+    .grid-item {
+        flex-basis: calc(100%);
+    }
+    .footer .logo {
+        padding-top: 0;
+    }
+}
+
+@media screen and (max-width: 1201px) {
+    .h {
+        height: 60vh !important;
+    }
+}
+
+@media screen and (max-width: 993px) {
+    .h {
+        height: 40vh !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .h {
+        height: 95vh !important;
+    }
+}
+
+@media screen and (max-width: 391px) {
+    .welcomet {
+        font-size: 24px !important;
+    }
+    input.btn {
+        width: 85% !important;
+    }
+    input {
+        width: 85% !important;
+    }
+    textarea {
+        width: 85% !important;
+    }
+    .h {
+        height: 60vh !important;
+    }
+}

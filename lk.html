@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Лучшие книги мира, сборник</title>
+    <!-- Подключение CSS файла bootstrap 5 -->
+    <link href="bootstrapno/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar shapka text-white navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand logo text-white" href="index.html">Booker</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse text-white navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0 mx-auto">
+                  <li class="nav-item pe-5">
+                    <a class="nav-link active" aria-current="page" href="index.html">Главная</a>
+                  </li>
+                  <li class="nav-item pe-5">
+                    <a class="nav-link active" aria-current="page" href="aboutus.html">О нас</a>
+                  </li>
+                  <li class="nav-item pe-5">
+                    <a class="nav-link active" aria-current="page" href="registr.html">Избранное</a>
+                  </li>
+
+                  <li class="nav-item dropdown pe-5">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Жанры
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="index.html#biograthy">Мемуары</a></li>
+                        <li><a class="dropdown-item" href="index.html#classic">Классика</a></li>
+                        <li><a class="dropdown-item" href="index.html#fantastic">Фантастика</a></li>
+                    </ul>
+                  </li>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <main>
+        <h2 class="text-center p-3">Избранное</h2>
+        <div class="container">
+            <div class="category1">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                  <div class="col">
+                    <div class="card">
+                        <div class="h" style="height: 70vh;">
+                          <img src="photos/b4.jpeg" class="card-img-top" height="100%" alt="Book 4">
+                        </div>
+                        <div class="card-body">
+                          <h5 class="card-title">«Норвежский лес»</h5>
+                          <p class="card-text fs-5">Харуки Мураками</p>
+                          <button class="btn p-0"><img src="photos/icons/heart.png" class="w-50" alt="heart"></button>
+                          <button class="btn p-0"><img src="photos/icons/trash.png" class="w-75" alt="heart"></button>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col">
+                    <div class="card">
+                      <div class="h" style="height: 70vh;">
+                        <img src="photos/b2.jpg" class="card-img-top" height="100%" alt="Book 2">
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title">«Ученица»</h5>
+                        <p class="card-text fs-5">Тара Вестовер</p>
+                        <button class="btn p-0"><img src="photos/icons/heart.png" class="w-50" alt="heart"></button>
+                        <button class="btn p-0"><img src="photos/icons/trash.png" class="w-75" alt="heart"></button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card">
+                      <div class="h" style="height: 70vh;">
+                        <img src="photos/b3.jpeg" class="card-img-top" height="100%" alt="Book 3">
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title">«Замок из стекла. Что скрывает прошлое»</h5>
+                        <p class="card-text fs-5">Джаннетт Уоллс</p>
+                        <button class="btn p-0"><img src="photos/icons/heart.png" class="w-50" alt="heart"></button>
+                        <button class="btn p-0"><img src="photos/icons/trash.png" class="w-75" alt="heart"></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+
+    <footer>
+      <nav class="footer mt-3">
+        <div class="container-fluid">
+          <div class="grid">
+            <div class="grid-item">
+              <a class="logo text-white pe-5"  href="index.html">Booker</a>
+            </div>
+            <div class="grid-item">
+              <ul class=" mb-2">
+                <li class="nav-item pe-5">
+                  <a class="nav-link active" aria-current="page" href="#">Новости</a>
+                </li>
+                <li class="nav-item pe-5">
+                  <a class="nav-link active" aria-current="page" href="#">Репортажи</a>
+                </li>
+                <li class="nav-item pe-5">
+                  <a class="nav-link active" aria-current="page" href="#">Форум</a>
+                </li>
+                <li class="nav-item pe-5">
+                  <a class="nav-link active" aria-current="page" href="#">Личный кабинет</a>
+                </li>
+              </ul>
+            </div>
+            <div class="grid-item">
+              <ul >
+                <li style="cursor: pointer;">Политика конфиденциальности</li>
+                <li style="cursor: pointer;">Задайте вопрос</li>
+                <li style="cursor: pointer;">Вакансии</li>
+                <li style="cursor: pointer;">volkhovnews@mail.ru</li>
+              </ul>
+            </div>
+          </div>
+          
+
+      </nav>
+    </footer>
+
+    
+
+    <!-- Подключение JS файла Bootstrap -->
+    <script src="script/jquery.js"></script>
+    <script src="bootstrapno/js/bootstrap.bundle.min.js" ></script></body>
+</html>
